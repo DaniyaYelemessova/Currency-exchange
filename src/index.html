@@ -3,9 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>ExchangeRate-API</title>
 </head>
 <body>
+  <h1>Currency Exchange</h1>
+  <div id="update"></div>
+    <form id="form">
+      <div class="form-container">
+      <div id="base">
+      <select id="currency1">
+        <option value="usd" selected>$USD</option>
+        <option value="eur">€EUR</option>
+        <option value="aud">$AUD</option>
+        <option value="kzt">₸KZT</option>
+        <option value="aed">د.إAED</option>
+        <option value="afn">؋AFN</option>
+        <option value="all">ALL</option>
+        <option value="amd">֏AMD</option>
+        <!-- <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option> -->
+      </select>
+      <div id="baseOutput"></div>
+    </div>
+      ⇒
+      <input type="number" id="amount" placeholder="Enter amount" required>
+      ⇒
+      <div id="converted">
+      <select id="currency2">
+        <option value="usd">$USD</option>
+        <option value="eur">€EUR</option>
+        <option value="aud">$AUD</option>
+        <option value="kzt" selected>₸KZT</option>
+        <option value="aed">د.إAED</option>
+        <option value="afn">؋AFN</option>
+        <option value="all">ALL</option>
+        <option value="amd">֏AMD</option>
+      </select>
+      <div id="convertedOutput"></div>
+      </div>
+
+      
+      </div> 
+      <div class="btn">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    
+
+  
   
 </body>
 </html>

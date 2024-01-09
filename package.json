@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "exchange-rate",
   "version": "1.0.0",
-  "description": "project description",
+  "description": "exchange-rate",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",

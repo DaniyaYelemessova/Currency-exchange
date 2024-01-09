@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+}
+
+
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#showResponse{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#update{
+  display: flex;
+  justify-content: center;
+}
+
+#baseOutput, #convertedOutput{
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 700;
+}
